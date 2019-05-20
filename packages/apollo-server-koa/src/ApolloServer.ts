@@ -195,7 +195,11 @@ export class ApolloServer extends ApolloServerBase {
         }
 
         return graphqlKoa(() => {
-          return this.createGraphQLServerOptions(ctx);
+          return this.createGraphQLServerOptions(ctx)
+              .then(opts => ({
+                ...opts,
+                schema: ctx.state.schema || opts.schema
+              }));
         })(ctx, next);
       }),
     );
