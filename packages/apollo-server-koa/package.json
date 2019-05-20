@@ -1,6 +1,6 @@
 {
   "name": "pb-apollo-server-koa",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "Production-ready Node.js GraphQL server for Koa",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
