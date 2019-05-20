@@ -1,6 +1,6 @@
 {
-  "name": "@brendanwheble/apollo-server-koa",
-  "version": "2.5.3",
+  "name": "pb-apollo-server-koa",
+  "version": "2.5.1",
   "description": "Production-ready Node.js GraphQL server for Koa",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -48,5 +48,5 @@
   "peerDependencies": {
     "graphql": "^0.12.0 || ^0.13.0 || ^14.0.0"
   },
-  "gitHead": "e479f8a25a9c29e04fc2340cb6617162b6c52b83"
+  "gitHead": "58871cfec29daa371d1fe0dcc731fc21ff48330b"
 }
